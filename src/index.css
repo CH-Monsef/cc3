@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(243, 234, 222);
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.user > button {
+  margin: 5px ;
+  border-radius: 10px;
+  background-color: rgb(46, 89, 89);
+  color:white;
+}
+
+.user > img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.usC {
+  display: grid;
+  grid-template-columns: repeat(4,  1fr);
+}
+.Accueil >h1 {
+  background-color: rgb(7, 17, 17);
+  color:white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
